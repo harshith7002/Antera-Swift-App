@@ -32,7 +32,7 @@ struct HistoryView: View {
                     List(store.sessions.reversed()) { session in
                         VStack(alignment: .leading, spacing: 4) {
                             
-                            Text(session.scenario) // ✅ FIXED
+                            Text(session.scenario) 
                                 .font(.headline)
                             
                             Text("Anxiety: \(session.anxietyLevel)")
