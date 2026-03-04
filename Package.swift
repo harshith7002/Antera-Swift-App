@@ -5,7 +5,7 @@
 // Do not edit it by hand because the contents will be replaced.
 
 import PackageDescription
-import AppleProductTypes
+
 
 let package = Package(
     name: "AnteraApp",
